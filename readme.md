@@ -1,6 +1,8 @@
 ### Git aliases
 
-This is a list of git aliases that I use on my daily basis. The first line is the alias and the second line is the complete git command. 
+Less is always more! Git aliases provide shorter commands by collecting options and flags. This is a list of git aliases that I use on a daily basis. 
+
+The first line is the git alias and the second line is the complete git command. 
 
 
 ```bash
@@ -38,6 +40,7 @@ $ git upstream
 $ git rev-parse --abbrev-ref --symbolic-full-name @{upstream}
 ```
 
+
 ### How to add an alias? 
 
 That's easy you just need to run the following:
@@ -50,11 +53,14 @@ And that's it! You're to ready to use `git car` instead of `git commit --amend -
 
 ### How can I see what an alias exactly does?
 
-That's easy too! Just use the `help` command
+That's easy too! Just use the `help` command as above
 
 ```bash
 $ git help car
 `git car' is aliased to `commit --amend --no-edit'
 ```
+
+A very handy little feature huh? :)
+
 
 
