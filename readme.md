@@ -1,4 +1,4 @@
-### Git aliases
+## Handye Git aliases
 
 Less is always more! Git aliases provide shorter commands by collecting options and flags. This is a list of git aliases that I use on a daily basis. 
 
@@ -38,6 +38,11 @@ $ git config --get-regexp alias
 ```bash
 $ git upstream 
 $ git rev-parse --abbrev-ref --symbolic-full-name @{upstream}
+```
+
+```bash
+$ git wip
+$ git commit -am "WIP"
 ```
 
 
