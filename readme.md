@@ -1,4 +1,4 @@
-## Handye Git aliases
+## Handy Git aliases
 
 Less is always more! Git aliases provide shorter commands by collecting options and flags. This is a list of git aliases that I use on a daily basis. 
 
